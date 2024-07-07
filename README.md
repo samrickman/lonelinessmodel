@@ -32,15 +32,15 @@ The model is reproducible as it is encapsulated in a Docker container. The requi
    docker run -d --rm --name lonelinessmodel -p 8000:8000 lonelinessimage
    ```
 
-## How to Use
-
 Step four opens port 8000 on the container to port 8000 on the local machine. If you wish to use a different port on the local machine, replace the command with:
 
 ```sh
 docker run -d --rm --name lonelinessmodel -p <local-port>:8000 lonelinessimage
 ```
 
-You can then send API requests to the model using the `upload` route. The parameters the upload method takes are:
+## How to Use
+
+You can send API requests to the model by uploading a file to be classified to the `upload` endpoint. The parameters the upload route takes are:
 
 1. `file`: **Required**. String (file path). The notes to classify. For an example of the expected format, see [`sample_notes.csv`](./app/sample_notes.csv).
 2. `out_file`: **Optional**. String (file path). This is a file in the container where the output is saved. By default, this is `./csv_out/sentence_df.csv`. We recommend piping the results of the API response to a local file instead of using this parameter.
