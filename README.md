@@ -114,20 +114,8 @@ docker logs lonelinessmodel
 
 # LICENSE
 
-This project is licensed under the GNU General Public License v3.0.
+This project builds upon several works licensed under the GNU General Public License v3.0, so is therefore also licensed under GPL.
 
 The full text of the GNU General Public License can be found in the LICENSE file.
 
-## Attribution
-
-This project builds upon the model ], which is licensed under the GNU General Public License v3.0.
-
-## Additional Licenses
-
-This project also makes use of the following libraries, which are licensed as follows:
-
-- Library1: MIT License
-- Library2: BSD License
-- Library3: Apache License 2.0
-
-For the full text of these licenses, please refer to the LICENSES.txt file.
+This project also makes use of the several libraries licensed under the MIT, BSD and Apache License 2.0. For the full text of these licenses and which software they refer to, please refer to the LICENSES.txt file.
