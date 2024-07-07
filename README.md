@@ -17,11 +17,11 @@ The model is reproducible as it is encapsulated in a Docker container. The requi
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/samrickman/lonelinessmodel.git
    ```
 2. Navigate into the directory:
    ```sh
-   cd <repository-directory>
+   cd lonelinessmodel
    ```
 3. Build the Docker image:
    ```sh
@@ -47,10 +47,15 @@ You can then send API requests to the model using the `upload` route. The parame
 3. `anon_mask_file`: **Optional**. String (file path). If data is pseudonymized, this provides words to replace pseudonymized tokens during pre-processing to aid tokenization.
 4. `overwrite`: **Optional**. Boolean. Whether to overwrite data in the container if it has been previously used for classification.
 
-The function signature appears as follows:
+Personally I find this easier to understand when I see the code. If you feel similarly, the function signature for the upload method appears as follows:
 
 ```python
-def upload(file: UploadFile = File(...), out_file: str = "./csv_out/sentence_df.csv", anon_mask_file: UploadFile = None, overwrite: bool = Form(False)):
+def upload(
+    file: UploadFile = File(...),
+    out_file: str = "./csv_out/sentence_df.csv",
+    anon_mask_file: UploadFile = None,
+    overwrite: bool = Form(False)
+):
 ```
 
 ## Examples
