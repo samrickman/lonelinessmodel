@@ -118,4 +118,4 @@ This project builds upon several works licensed under the GNU General Public Lic
 
 The full text of the GNU General Public License can be found in the LICENSE file.
 
-This project also makes use of the several libraries licensed under the MIT, BSD and Apache License 2.0. For the full text of these licenses and which software they refer to, please refer to the LICENSES.txt file.
+This project also makes use of the several libraries licensed under the MIT, BSD and Apache License 2.0. For the full text of these licenses and which software they refer to, please refer to the [`LICENSE`](./LICENSE) file.
