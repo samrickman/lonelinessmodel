@@ -1,4 +1,6 @@
-# Using Machine Learning to Understand Loneliness in English Long-term Care Users from Free Text Case Notes
+[![DOI](https://zenodo.org/badge/825260712.svg)](https://doi.org/10.5281/zenodo.13934375)
+
+# Understanding patterns of loneliness in older long-term care users using natural language processing with free text case notes
 
 This repository relates to the 2024 work, _Using Machine Learning to Understand Loneliness in English Long-term Care Users from Free Text Case Notes_ by Sam Rickman, Jose-Luis Fernandez, and Juliette Malley. It will be updated with a link to the paper upon publication.
 
@@ -119,3 +121,9 @@ This project builds upon several works licensed under the GNU General Public Lic
 The full text of the GNU General Public License can be found in the LICENSE file.
 
 This project also makes use of the several libraries licensed under the MIT, BSD and Apache License 2.0. For the full text of these licenses and which software they refer to, please refer to the [`LICENSE`](./LICENSE) file.
+
+# Citation
+
+If you use this code in your research, please cite:
+
+Rickman, S. (2024). _Understanding patterns of loneliness in older long-term care users using natural language processing with free text case notes_ (v1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.13934375](https://doi.org/10.5281/zenodo.13934375)
