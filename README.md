@@ -2,7 +2,7 @@
 
 # Understanding patterns of loneliness in older long-term care users using natural language processing with free text case notes
 
-This repository relates to the 2024 work, _Using Machine Learning to Understand Loneliness in English Long-term Care Users from Free Text Case Notes_ by Sam Rickman, Jose-Luis Fernandez, and Juliette Malley. It will be updated with a link to the paper upon publication.
+This repository relates to the 2024 work, _Understanding patterns of loneliness in older long-term care users using natural language processing with free text case notes_ by Sam Rickman, Jose-Luis Fernandez, and Juliette Malley. It will be updated with a link to the paper upon publication.
 
 ## Abstract of the work
 
