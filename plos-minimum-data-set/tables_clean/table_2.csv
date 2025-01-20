@@ -1,0 +1,4 @@
+Group,N,Sentences (total),Sentences (median),Sentences (classified),Min Date,Max Date,Service length,F (%),WB (%),YOB,Deceased
+Train,200,317263,1286,10083,2011-04-01,2022-04-15,3.03,62,47,1933,40
+Test,200,305319,1238,3573,2011-04-01,2022-04-15,3.83,62,49,1934,43
+All,3046,4807982,1289,13656,2010-01-29,2022-04-15,3.49,62,47,1934,42

@@ -10,9 +10,12 @@ Loneliness and social isolation are distressing for individuals and a predictor 
 
 # What this repository contains
 
-The paper trains a machine learning model to determine whether free text about users of adult social care indicates that they are lonely or socially isolated. This repository includes the final classification model, which can be run on large volumes of free text to generate such classifications.
+The paper trains a machine learning model to determine whether free text about users of adult social care indicates that they are lonely or socially isolated. This repository includes:
 
-## Requirements
+1. The final classification model, which can be run on large volumes of free text to generate such classifications, as well as some synthetic data.
+2. A [minimal data set](./plos-minimum-data-set/) for the tables and figures in the paper, i.e. `csv` files of values used to build figures and tables, and R code to reproduce the tables.
+
+## Requirements for running the model
 
 The model is reproducible as it is encapsulated in a Docker container. The requirements are:
 
