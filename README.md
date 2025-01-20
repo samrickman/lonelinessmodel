@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/825260712.svg)](https://doi.org/10.5281/zenodo.13934375)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14697740.svg)](https://doi.org/10.5281/zenodo.14697740)
 
 # Understanding patterns of loneliness in older long-term care users using natural language processing with free text case notes
 
